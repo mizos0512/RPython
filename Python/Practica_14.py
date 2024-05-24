@@ -39,7 +39,7 @@ print("g) ",str [19:29])
 print("h) ",str [-6:-9:-3])
 print("i) ",str [-9:-0:-1])
 print("j) ",str [2:16:3])
-print("j) ",str [2:16:2])
+
 
 print()
 print("EJERCICIO 3")
