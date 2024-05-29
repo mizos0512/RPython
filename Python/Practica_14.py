@@ -40,6 +40,7 @@ print("h) ",str [-6:-9:-3])
 print("i) ",str [-9:-0:-1])
 print("j) ",str [2:16:3])
 
+
 print()
 print("EJERCICIO 3")
 print()
