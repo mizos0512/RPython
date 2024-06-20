@@ -17,7 +17,7 @@
 			   <rating>PG</rating>
 			   <description>None provided.</description>
 			</movie>
-			<movie favorite="False" title="Back 2 the Future">
+			<movie favorite="False" title="Back to the Future">
 			   <format multiple="No">Blu-ray</format>
 			   <year>1985</year>
 			   <rating>PG</rating>
@@ -25,13 +25,6 @@
 			</movie>
 		</decade>
 		<decade years="1990s">
-			<movie favorite="False" title="X-Men">
-			   <format multiple="Yes">dvd, digital</format>
-			   <year>2000</year>
-			   <rating>PG-13</rating>
-			   <description>Two mutants come to a private academy for their kind whose resident superhero team must 
-			   oppose a terrorist organization with similar powers.</description>
-			</movie>
 			<movie favorite="True" title="Batman Returns">
 			   <format multiple="No">VHS</format>
 			   <year>1992</year>
@@ -45,7 +38,14 @@
 			   <description>WhAtEvER I Want!!!?!</description>
 			</movie>
 		</decade>	
-	</genre>
+	<decade years="2000s"><movie favorite="False" title="X-Men">
+			   <format multiple="Yes">dvd, digital</format>
+			   <year>2000</year>
+			   <rating>PG-13</rating>
+			   <description>Two mutants come to a private academy for their kind whose resident superhero team must 
+			   oppose a terrorist organization with similar powers.</description>
+			</movie>
+			</decade></genre>
 	
 	<genre category="Thriller">
 		<decade years="1970s">
