@@ -1,6 +1,6 @@
 from io import open
 
-def Lee_fichero(fichero):
+def Lee_ficheros(fichero):
     personas=[]
     with open(fichero, 'r', encoding='utf-8') as fichero:
         cuerpo=fichero.readline().strip().split(';')
@@ -17,5 +17,5 @@ def mostrar_lista_de_personas(cuerpo, persona):
   
         
 if __name__ == '__main__':
-    encabezado, person=Lee_fichero('personas.txt')    
+    encabezado, person=Lee_ficheros('personas.txt')    
     mostrar_lista_de_personas(encabezado, person)        
