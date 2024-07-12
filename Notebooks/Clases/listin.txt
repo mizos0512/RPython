@@ -1,7 +1,7 @@
 0,4
 Pepe,623123234
 Juan,675234345
-Reinaldo Díaz Mizos,624188871
-René Roig Pérez,645187781
+Reinaldo Dï¿½az Mizos,624188871
+Renï¿½ Roig Pï¿½rez,645187781
 Maria Antonieta,721123432
-Napoleón Bonaparte,656321456
+Napoleï¿½n Bonaparte,6123678
