@@ -1,4 +1,4 @@
 Fichero de texto
 para las pruebas de lectura
 y escritura en python
-y mucho, mucho mas.
+y mucho, y mas.
