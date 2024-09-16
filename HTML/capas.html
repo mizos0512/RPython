@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño con DIVs</title>
+    <style>
+        /* General */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Asegura que el contenedor principal ocupe al menos la altura completa de la ventana */
+        }
+
+        /* Contenedor principal */
+        .container {
+            flex: 1; /* Permite que el contenedor principal ocupe el espacio disponible */
+            display: flex;
+            flex-direction: row;
+        }
+
+        /* Banner */
+        .banner {
+            background-color: #4CAF50; /* Color de fondo del banner */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Columna lateral izquierda */
+        .sidebar {
+            width: 20%;
+            background-color: #f4f4f4; /* Color de fondo de la columna lateral */
+            padding: 15px;
+            box-sizing: border-box; /* Incluye padding en el ancho total */
+        }
+
+        /* Contenido principal */
+        .content {
+            width: 75%;
+            padding: 15px;
+            background-color: #ffffff; /* Color de fondo del contenido principal */
+            box-sizing: border-box; /* Incluye padding en el ancho total */
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333; /* Color de fondo del pie de página */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner -->
+    <div class="banner">
+        <h1>Banner</h1>
+    </div>
+
+    <!-- Contenedor de la columna lateral y contenido principal -->
+    <div class="container">
+        <div class="sidebar">
+            <h2>Columna Lateral</h2>
+            <p>Contenido de la columna lateral.</p>
+        </div>
+
+        <div class="content">
+            <h2>Contenido Principal</h2>
+            <p>Este es el área principal de contenido de la página.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Pie de Página</p>
+    </div>
+</body>
+</html>

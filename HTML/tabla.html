@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla con Encabezados, Colspan y Rowspan</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo de Tabla con Unificación de Filas y Columnas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Descripción</th>
+                <th colspan="2">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Ordenador</td>
+                <td>Portátil</td>
+                <td>$1000</td>
+                <td>USD</td>
+            </tr>
+            <tr>
+                <td>De sobremesa</td>
+                <td>$1200</td>
+                <td>USD</td>
+            </tr>
+            <tr>
+                <td>Teléfono</td>
+                <td colspan="3">Smartphone con cámara de alta resolución</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+

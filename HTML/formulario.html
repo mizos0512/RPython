@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Agrupación y Etiquetas Asociadas</title>
+</head>
+<body>
+    <h1>Formulario de Ejemplo</h1>
+    
+    <form id="miFormulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <!-- Agrupación de casillas de verificación y botones de opción -->
+        <fieldset>
+            <legend>Opciones de Selección</legend>
+            
+            <fieldset>
+                <legend>Selecciona tus opciones:</legend>
+                <label for="opcion1"><input type="checkbox" id="opcion1" name="opciones" value="opcion1"> Opción 1</label><br>
+                <label for="opcion2"><input type="checkbox" id="opcion2" name="opciones" value="opcion2"> Opción 2</label><br>
+                <label for="opcion3"><input type="checkbox" id="opcion3" name="opciones" value="opcion3"> Opción 3</label><br>
+            </fieldset><br>
+            
+            <fieldset>
+                <legend>Selecciona una opción:</legend>
+                <label for="radioA"><input type="radio" id="radioA" name="grupo" value="opcionA"> Opción A</label><br>
+                <label for="radioB"><input type="radio" id="radioB" name="grupo" value="opcionB"> Opción B</label><br>
+                <label for="radioC"><input type="radio" id="radioC" name="grupo" value="opcionC"> Opción C</label><br>
+            </fieldset>
+        </fieldset><br>
+
+        <!-- Agrupación de lista desplegable y área de texto -->
+        <fieldset>
+            <legend>Información Adicional</legend>
+            
+            <label for="lista">Elige una opción:</label>
+            <select id="lista" name="lista">
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+                <option value="opcion3">Opción 3</option>
+            </select><br><br>
+
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+        </fieldset>
+    </form>
+
+    <button type="submit" form="miFormulario">Enviar Formulario</button>
+</body>
+</html>
