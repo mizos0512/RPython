@@ -1,5 +1,0 @@
-Estoy abriendo un fichero de Python para escritura
-Uso la clausula 'w'
-Voy a escribir una tercera lineaEscribiendo otra liea al final
-Vuelvo a modificar lalinea 4
-

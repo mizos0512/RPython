@@ -17,5 +17,5 @@ def mostrar_lista_de_personas(cuerpo, persona):
   
         
 if __name__ == '__main__':
-    encabezado, person=Lee_fichero('personas.txt')    
+    encabezado, person=Lee_fichero('../Archivos/personas.txt')    
     mostrar_lista_de_personas(encabezado, person)        
